@@ -1,0 +1,25 @@
+{
+  "name": "@momo/cron-scheduler",
+  "version": "1.0.0",
+  "description": "Standalone cron scheduler for Mimi Slack bot daily briefs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "test": "node test-scheduler.js"
+  },
+  "keywords": ["cron", "scheduler", "slack", "daily-brief"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.57.0",
+    "@supabase/supabase-js": "^2.54.0",
+    "axios": "^1.7.2",
+    "dotenv": "^17.2.1",
+    "express": "^4.18.2",
+    "googleapis": "^148.0.0",
+    "luxon": "^3.7.1",
+    "moment-timezone": "^0.6.0",
+    "node-cron": "^4.2.1"
+  }
+}
